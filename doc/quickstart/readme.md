@@ -4,7 +4,7 @@
 ## 下载源码
 急着上手？[下载](https://github.com/angular/quickstart/blob/master/README.md)本快速上手的源码然后开始Coding吧
 
-## 看它运行起来
+## 查看实例
 试试这个[plunker](http://plnkr.co/)上的[在线例子](https://angular.io/resources/live-examples/quickstart/ts/plnkr.html)，它显示了一些简单的信息：  
 ![first Angular2 App](../../res/img/my-first-app.png)
 
@@ -19,17 +19,17 @@
 在我们展开这个话题的时候，我们会看到很多代码块。他们都很可以很容易的被复制和粘贴。
 ```
 
-## 开发环境
+### 开发环境
 我们需要准备我们的开发环境：
 * 安装node和npm
-* 创建[应用项目文件夹](#项目文件夹)
+* 创建[应用项目文件夹](#应用项目文件夹)
 * 添加指导TypeScript编译器所需的[tsconfig.json](#tsconfig.json)
 * 添加[typings.json](#typings.json)用来定位无法找到的TypeScript定义文件
 * 添加[package.json](#package.json)用来定义我们需要用到的包和脚本
 * 安装npm包和typings文件
 
 如果你的机器上没有**node和npm 请[安装](https://nodejs.org/en/download/)**
-
+<p id="应用项目文件夹"></p>
 创建一个**新的项目文件夹**
 ```batch
 mkdir angular2-quickstart
@@ -56,6 +56,7 @@ cd    angular2-quickstart
 }
 ```
 `tsconfig.json`文件用来引导TypeScript编译器。在[TypeScript配置](./doc/develop-guide/typescript-configuration/readme.md)章节中可以了解到更多。  
+
 在项目文件夹中添加**typings.json**文件并复制粘贴下面的内容：
 ```json
 {
@@ -99,9 +100,9 @@ cd    angular2-quickstart
 }
 ```
 
-### **通过*npm*添加我们需要的库**
+#### **通过*npm*添加我们需要的库**
 Angular应用开发者依赖*[npm](https://docs.npmjs.com/)*包管理器来安装应用所需的库。Angular团队推荐定义在`dependencies`和`devDependencies `中的入门套件包。在[npm包](./doc/develop-guide/npm-packages/readme.md)章节中查看详细信息。
-### **帮助性脚本**
+#### **帮助性脚本**
 我们在推荐的`package.json`文件中包含了许多npm脚本以应对常规的开发任务：
 ```json
 {
