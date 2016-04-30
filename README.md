@@ -6,6 +6,8 @@
 * 尽可能做到信达雅
 * 欢迎大家指正和交流
 
+在[Gitbook](https://www.gitbook.com)上阅读[**Angular2 中文文档**](https://emeryao.gitbooks.io/angular2-docs/content/)
+
 翻译自[Angular2官方文档](https://angular.io/docs/ts/latest/)  
 使用语言为[TypeScript](http://www.typescriptlang.org/)
 
