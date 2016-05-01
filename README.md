@@ -15,4 +15,4 @@
 [PR WELCOME~](https://github.com/Emeryao/angular2-docs/pulls)
 
 ## 上次更新
-2016-04-30
+2016-05-01

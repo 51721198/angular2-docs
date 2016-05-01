@@ -141,3 +141,33 @@ npm install
 > 只要确保在`npm install`结束后没有`npm ERR!`就行了。
 
 **我们已经都准备好了。**让我们写一些代码吧。
+
+### 第一个Angular组件
+创建一个承载应用的文件夹并添加一个超级简单的Angular组件。
+在根路径下**创建*app*子文件夹**并设置为当前路径
+```batch
+mkdir app
+cd    app
+```
+创建名为*app.component.ts*的**组件文件**并粘贴下面的代码：
+```typescript
+import {Component} from 'angular2/core';
+
+@Component({
+    selector: 'my-app',
+    template: '<h1>My First Angular 2 App</h1>'
+})
+export class AppComponent { }
+```
+
+#### **AppComponent是应用的入口**
+每一个Angular应用都只要有一个根组件，为了方便我们把他命名为`AppComponent`，它承载了客户端的用户体验。  
+组件是Angular应用的基本组成部分。组件通过它关联的模板控制屏幕的一部分—*视图*。  
+这个快速上手只有一个超级简单的组件。但是它拥有每一个我们将会编写的组件的必备结构：
+* 一个或多个`import`语句用来引用我们所需的东西
+* `@Component装饰器`用来告诉Angular应该使用什么模板以及怎么创建这个组件
+* `component类`通过模板控制视图的表现和行为
+
+#### **导入**
+Angular应用是模块化的。它由许多都专注于单一目的的文件组成。  
+Angular本身也是模块化的。他是许多库模块的集合，我们在构建应用时将会用到许多相关的特性。
