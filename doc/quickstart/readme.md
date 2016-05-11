@@ -363,7 +363,7 @@ import {AppComponent} from './app.component';
 ### 添加式样
 式样并不是必须的，但是是很棒的。`index.html`假定了一个名为`styles.css`的式样表。
 
-在根万件加中创建一个`style.css`文件并开始编写，可以使用下列的样子：
+在根文件夹中创建一个`style.css`文件并开始编写，可以使用下列的样子：
 ```css
 /* Master Styles */
 h1 {
